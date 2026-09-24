@@ -7,10 +7,11 @@ environment:
   sdk: ^3.13.4
 
 dependencies:
-  dynamic_glass_glmv: ^0.2.4
+  floating_nav_bar:
+    path: packages/floating_nav_bar
   flutter:
     sdk: flutter
-
+  flutter_svg: ^2.3.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -18,3 +19,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/icons/

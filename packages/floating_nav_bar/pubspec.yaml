@@ -1,0 +1,19 @@
+name: floating_nav_bar
+description: >-
+  Floating bottom navigation bar with One UI style motion: a press pulse and a
+  selection pill that fades in on the tapped tab.
+version: 0.2.0
+publish_to: none
+
+environment:
+  sdk: ^3.13.4
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
